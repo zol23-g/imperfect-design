@@ -1,11 +1,11 @@
-import "@/app/style/main.css"
+import "@/app/css/main.css"
 // import "@/app/style/vendors.css"
 export default function Footer(){
         return (
             <footer className="footer -type-1">
               <div className="footer__top">
-                <div className="container">
-                  <div className="row y-gap-48 justify-content-between">
+                <div className=" ">
+                  <div className="row y-gap-48 justify-content-between grid grid-cols-3 place-items-center">
                     <div className="col-lg-3 col-md-6">
                       <div className="footer__item">
                         <h3 className="footer__title text-white">Contact</h3>
@@ -172,7 +172,7 @@ export default function Footer(){
         
               <div className="footer__bottom">
                 <div className="container">
-                  <div className="row align-items-center justify-content-between sm:justify-content-start">
+                  <div className="flex row align-items-center justify-content-between sm:justify-content-start justify-center">
                     <div className="col-auto sm:order-2">
                       <div className="footer__bottom_text">
                         © 2023 Imperfect Design. All rights reserved.
